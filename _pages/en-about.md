@@ -5,6 +5,7 @@ permalink: /en/about/
 
 <div class="lang-switch">
   <a class="btn btn--primary" href="/about/">中文</a>
+  <a class="btn btn--inverse" href="/en/resume/">Resume</a>
 </div>
 
 I am **Duan Xuyan**, a UI designer focused on product experience, visual systems, and Web3 interface design.

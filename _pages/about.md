@@ -5,6 +5,7 @@ permalink: /about/
 
 <div class="lang-switch">
   <a class="btn btn--primary" href="/en/about/">English</a>
+  <a class="btn btn--inverse" href="/resume/">完整简历</a>
 </div>
 
 我叫 **段续衍**，目前主要方向是 **Web3 UI / Product Design**。
@@ -24,4 +25,4 @@ permalink: /about/
 - 邮箱：`382723848@qq.com`
 - GitHub：[`douge357`](https://github.com/douge357)
 
-如果你希望更快了解我的经历，可以直接查看 [简历页](/resume/)。
+如果你希望更快了解我的经历，建议直接查看 [简历页](/resume/)。
