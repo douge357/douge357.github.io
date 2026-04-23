@@ -3,7 +3,5 @@ main:
     url: /
   - title: "简历"
     url: /resume/
-  - title: "Web设计"
-    url: /web-design/
   - title: "关于"
     url: /about/
