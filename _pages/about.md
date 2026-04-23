@@ -5,17 +5,17 @@ permalink: /about/
 
 Hi, I'm `douge357`.
 
-This site is my personal homepage and writing space. I use it to document what I am building, what I am learning, and the ideas I want to keep around.
+This site is my personal homepage and writing space. I use it to share progress, capture ideas, and keep a public record of what I am learning.
 
-You can use this page to introduce:
+Right now, my focus is simple:
 
-- who you are
-- what kind of work you do
-- what you are interested in
-- where people can find you online
+- keep building in public
+- improve steadily through small projects
+- write down useful things instead of letting them disappear
 
-Suggested next edits:
+You can find me here:
 
-- replace this text with your short bio
-- add your work, school, or project background
-- include links to GitHub, X, email, or portfolio pages
+- GitHub: [douge357](https://github.com/douge357)
+- Email: [duanxuyan123@gmail.com](mailto:duanxuyan123@gmail.com)
+
+This page can grow over time with project background, interests, work history, or anything else worth sharing.

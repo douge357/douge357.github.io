@@ -4,12 +4,20 @@ author_profile: true
 title: "Home"
 ---
 
-This is my personal corner on the internet.
+Welcome to my personal website.
 
-I use this site to share:
+I use this space to document what I am building, what I am learning, and what I want to remember.
 
-- notes from what I am learning
-- small projects and experiments
-- thoughts on tools, design, and building on the web
+Here you'll find:
 
-Start with the latest posts below, or visit the About page for a quick introduction.
+- notes from ongoing learning
+- project updates and experiments
+- reflections on tools, design, and building on the web
+
+Quick links:
+
+- [About](/about/)
+- [Projects](/projects/)
+- [Posts](/posts/)
+
+Latest writing appears below on the homepage.
