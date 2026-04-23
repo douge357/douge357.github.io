@@ -1,0 +1,64 @@
+title: douge357
+name: douge357
+description: Personal website, notes, and project updates from douge357.
+url: "https://douge357.github.io"
+baseurl: ""
+repository: "douge357/douge357.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "air"
+locale: "en-US"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+author:
+  name: "douge357"
+  bio: "Builder, learner, and internet citizen sharing notes, projects, and experiments."
+  location: "China"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/douge357"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/douge357"
+
+atom_feed:
+  hide: false
+
+search: true
