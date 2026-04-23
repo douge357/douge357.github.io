@@ -1,0 +1,15 @@
+
+> ai-website-clone-template@0.3.1 dev
+> next dev
+
+▲ Next.js 16.2.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.17:3000
+✓ Ready in 541ms
+Creating turbopack project {
+  dir: 'E:\\web1\\ai-website-cloner-template-unzipped\\ai-website-cloner-template-master',
+  testMode: true
+}
+
+ GET / 200 in 3.1s (next.js: 2.8s, application-code: 270ms)
+ GET / 200 in 123ms (next.js: 7ms, application-code: 116ms)

@@ -1,0 +1,2144 @@
+{
+  "targetUrl": "https://ranli.framer.website/Projects",
+  "capturedAt": "2026-04-23T08:13:22.128Z",
+  "desktop": {
+    "viewportName": "desktop",
+    "pageTitle": "Hey, I'm Ran Li",
+    "metaDescription": "A freelance Product designer",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "2025"
+      },
+      {
+        "tag": "h3",
+        "text": "Design for Android"
+      },
+      {
+        "tag": "h3",
+        "text": "Creative Generation Agent"
+      },
+      {
+        "tag": "h3",
+        "text": "Yuzu AI"
+      },
+      {
+        "tag": "h3",
+        "text": "AI Flow"
+      },
+      {
+        "tag": "h1",
+        "text": "2024"
+      },
+      {
+        "tag": "h3",
+        "text": "Coffee Delivery"
+      },
+      {
+        "tag": "h3",
+        "text": "WMS"
+      },
+      {
+        "tag": "h3",
+        "text": "Chamber"
+      },
+      {
+        "tag": "h3",
+        "text": "山西古建"
+      },
+      {
+        "tag": "h3",
+        "text": "Voyage AI"
+      },
+      {
+        "tag": "h1",
+        "text": "2021 - 2023"
+      },
+      {
+        "tag": "h3",
+        "text": "UL Design"
+      },
+      {
+        "tag": "h3",
+        "text": "Dashboard Design"
+      },
+      {
+        "tag": "h1",
+        "text": "2020"
+      },
+      {
+        "tag": "h3",
+        "text": "Sayhomee"
+      },
+      {
+        "tag": "h3",
+        "text": "InSpace"
+      },
+      {
+        "tag": "h3",
+        "text": "UI Kits"
+      },
+      {
+        "tag": "h1",
+        "text": "2019"
+      },
+      {
+        "tag": "h3",
+        "text": "Eano"
+      },
+      {
+        "tag": "h1",
+        "text": "2016-2018"
+      },
+      {
+        "tag": "h3",
+        "text": "Haohaozhu 2.0"
+      },
+      {
+        "tag": "h3",
+        "text": "InSpace"
+      },
+      {
+        "tag": "h3",
+        "text": "Lawyer Center"
+      },
+      {
+        "tag": "h1",
+        "text": "2014-2016"
+      },
+      {
+        "tag": "h3",
+        "text": "Hunter Mode"
+      },
+      {
+        "tag": "h3",
+        "text": "Hunter Mode Style Guide"
+      },
+      {
+        "tag": "h3",
+        "text": "Breadtrip Dashboard"
+      },
+      {
+        "tag": "h3",
+        "text": "City Hunter"
+      },
+      {
+        "tag": "h1",
+        "text": "2012"
+      },
+      {
+        "tag": "h3",
+        "text": "Mapbar"
+      }
+    ],
+    "links": [
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/design-for-android"
+      },
+      {
+        "text": "Design for Android",
+        "href": "https://ranli.framer.website/new-projects/design-for-android"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/creative-generation-agent"
+      },
+      {
+        "text": "Creative Generation Agent",
+        "href": "https://ranli.framer.website/new-projects/creative-generation-agent"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai"
+      },
+      {
+        "text": "Yuzu AI",
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/funblocks"
+      },
+      {
+        "text": "AI Flow",
+        "href": "https://ranli.framer.website/new-projects/funblocks"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery"
+      },
+      {
+        "text": "Coffee Delivery",
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/wms"
+      },
+      {
+        "text": "WMS",
+        "href": "https://ranli.framer.website/new-projects/wms"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/chamber"
+      },
+      {
+        "text": "Chamber",
+        "href": "https://ranli.framer.website/new-projects/chamber"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture"
+      },
+      {
+        "text": "山西古建",
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/voyage-ai"
+      },
+      {
+        "text": "Voyage AI",
+        "href": "https://ranli.framer.website/new-projects/voyage-ai"
+      },
+      {
+        "text": "",
+        "href": "https://uldesign.framer.website/"
+      },
+      {
+        "text": "UL Design",
+        "href": "https://uldesign.framer.website/"
+      },
+      {
+        "text": "",
+        "href": "https://uldesign.framer.website/gallery"
+      },
+      {
+        "text": "Dashboard Design",
+        "href": "https://uldesign.framer.website/gallery"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/sayhomee"
+      },
+      {
+        "text": "Sayhomee",
+        "href": "https://ranli.framer.website/new-projects/sayhomee"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/inspace"
+      },
+      {
+        "text": "InSpace",
+        "href": "https://ranli.framer.website/new-projects/inspace"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/Projects/eano"
+      },
+      {
+        "text": "Eano",
+        "href": "https://ranli.framer.website/Projects/eano"
+      },
+      {
+        "text": "Book a 15min call",
+        "href": "https://x.com/betterliran"
+      },
+      {
+        "text": "Betterliran",
+        "href": "https://x.com/betterliran"
+      },
+      {
+        "text": "Follow",
+        "href": "https://x.com/betterliran"
+      },
+      {
+        "text": "linkedin.com",
+        "href": "https://www.linkedin.com/in/liranderan/"
+      },
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      },
+      {
+        "text": "Yuzu AI",
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai"
+      },
+      {
+        "text": "Coffee Delivery",
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery"
+      },
+      {
+        "text": "WMS",
+        "href": "https://ranli.framer.website/new-projects/wms"
+      },
+      {
+        "text": "Voyage AI",
+        "href": "https://ranli.framer.website/new-projects/voyage-ai"
+      },
+      {
+        "text": "UL Design",
+        "href": "https://uldesign.framer.website/"
+      },
+      {
+        "text": "UL Dashboard",
+        "href": "https://uldesign.framer.website/gallery"
+      },
+      {
+        "text": "Sayhomee",
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture"
+      },
+      {
+        "text": "InSpace",
+        "href": "https://ranli.framer.website/new-projects/inspace"
+      },
+      {
+        "text": "Eano",
+        "href": "https://www.eano.com/"
+      },
+      {
+        "text": "Twitter",
+        "href": "https://twitter.com/betterliran"
+      },
+      {
+        "text": "Linkedin",
+        "href": "https://www.linkedin.com/in/liranderan/"
+      },
+      {
+        "text": "Figma",
+        "href": "https://www.figma.com/@ranli"
+      },
+      {
+        "text": "Behance",
+        "href": "https://www.behance.net/liranderan"
+      },
+      {
+        "text": "Dribbble",
+        "href": "https://dribbble.com/liranderan"
+      },
+      {
+        "text": "Notion",
+        "href": "https://www.notion.so/liranderan/I-m-Ran-Li-a416bfcd54e94f4c8ba78493921db518"
+      },
+      {
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+        "href": "https://www.framer.com/"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      },
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/Use4oddwH3JUtz1HjZjUCbTbrD4.png?scale-down-to=512&width=1800&height=1350",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/GyuvSRJBe9N8BFAgKjDpi55JA14.png?scale-down-to=512&width=2560&height=1920",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/M3PyDif23GOgyHWNCJT67k5Cnr8.jpg?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/i4GdC1d4QsB6FhoupBnYkCZjm4.png?scale-down-to=512&width=1440&height=1080",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/fvjqTLlDMHkO8d4y76O2m0DpuU.png?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/1cB4nkcHmk0svYSiIZsu05vfow.png?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/1FNlNcViQ1nNVIzsvlTBIarIuM.jpg?scale-down-to=512&width=2800&height=1900",
+        "alt": "",
+        "width": 473,
+        "height": 320
+      },
+      {
+        "src": "https://framerusercontent.com/images/2QHcohyIa85JTWBNkJD7D9Gk1j4.jpg?scale-down-to=512&width=1440&height=1080",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/3tn0H92jic2S3Okvx3sRwzN7B1Y.jpg?scale-down-to=512&width=1920&height=1440",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/vTLtP8wCafsfthezMWBoA0ylBxs.jpg?scale-down-to=512&width=4320&height=3240",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/gOVgfGAwHrVgpcE0UmK3esCedZE.jpg?scale-down-to=512&width=4320&height=3240",
+        "alt": "",
+        "width": 473,
+        "height": 354
+      },
+      {
+        "src": "https://framerusercontent.com/images/q8jchKH7VPYbEOY92E9KUqtX8nA.png?width=1920&height=1080",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/9gYLo1FFVJTsQDQECObH5k.jpg?width=2880&height=2160",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/X9PxMsyUQoNNNpuADoOfstsUVE4.jpg?width=3840&height=1920",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/CcHWchd6nqnPxy2M1GQuaBl4zCU.png?width=3840&height=2160",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/CYv4HbBCUYBwsAvpCOBPV8b4QU.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/jQ0C6ywkchdOWjZk2ZRhMvLZcQ.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/8JHa6VU8tb219HzmpPH22L2H2SU.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/Ovdf6rIzLk5x0Kb6UWyWl6R7WYc.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/5xbgPpY79skFTFvACcndnDSbDk.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/0I5ieS418tfCCCC2Z3TdInnSiXE.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/Jdhr0SarnCBiz3cpzs6RcNs144.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/XIOcnUanTRuiLUcK7uMjL5Pw1gA.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/wxuAXyFz79uO1CJjVtev9qDdF8.jpg?width=790&height=790",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/AM9PX8l3tcHV41oVhZ9gWUkBSE.png?width=906&height=635",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/uTKvR6qfTzsBtXOvlLGL21I53YY.png?width=904&height=849",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      }
+    ],
+    "fonts": [
+      "sans-serif",
+      "Figtree, \"Figtree Placeholder\", sans-serif",
+      "Satoshi, \"Satoshi Placeholder\", sans-serif",
+      "\"Red Hat Display\", \"Red Hat Display Placeholder\", sans-serif"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 238)",
+      "rgb(243, 243, 243)",
+      "rgb(81, 224, 205)",
+      "rgba(103, 226, 235, 0.08)",
+      "rgba(0, 85, 204, 0.04)",
+      "rgb(0, 85, 204)",
+      "rgb(104, 115, 125)",
+      "rgb(112, 112, 255)",
+      "rgba(255, 255, 255, 0.24)"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "id": "",
+        "className": "framer-FrFct framer-1iv4xcg framer-v-1r8e9vh",
+        "textPreview": "HeyProjectsWork ExperienceContact"
+      },
+      {
+        "index": 1,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-1eg6kx6 framer-1p09y2l",
+        "textPreview": "Hey"
+      },
+      {
+        "index": 2,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-192v0kr framer-1p09y2l",
+        "textPreview": "Projects"
+      },
+      {
+        "index": 3,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-1eg6kx6 framer-1p09y2l",
+        "textPreview": "Work Experience"
+      },
+      {
+        "index": 4,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-1eg6kx6 framer-1p09y2l",
+        "textPreview": "Contact"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1htfjmu",
+        "textPreview": "2025Design for AndroidCreative Generation AgentYuzu AIAI Flow"
+      },
+      {
+        "index": 6,
+        "tag": "div",
+        "id": "",
+        "className": "framer-19gemmn",
+        "textPreview": "2025"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "id": "",
+        "className": "framer-19bdgi0",
+        "textPreview": "Design for AndroidCreative Generation Agent"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Design for Android"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Creative Generation Agent"
+      },
+      {
+        "index": 10,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1y5wa98",
+        "textPreview": "Yuzu AIAI Flow"
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Yuzu AI"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "AI Flow"
+      },
+      {
+        "index": 13,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1caw2sx",
+        "textPreview": "2024Coffee DeliveryWMSChamber山西古建Voyage AI"
+      },
+      {
+        "index": 14,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1xghuzm",
+        "textPreview": "2024"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "id": "",
+        "className": "framer-g7ekvg",
+        "textPreview": "Coffee DeliveryWMS"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Coffee Delivery"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "WMS"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1mp81qm",
+        "textPreview": "Chamber山西古建"
+      },
+      {
+        "index": 19,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Chamber"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "山西古建"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "id": "",
+        "className": "framer-6rvdu8",
+        "textPreview": "Voyage AI"
+      },
+      {
+        "index": 22,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Voyage AI"
+      },
+      {
+        "index": 23,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1a6hgfi",
+        "textPreview": ""
+      },
+      {
+        "index": 24,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1hl1s81",
+        "textPreview": "2021 - 2023UL DesignDashboard Design"
+      },
+      {
+        "index": 25,
+        "tag": "div",
+        "id": "",
+        "className": "framer-qd1urq",
+        "textPreview": "2021 - 2023"
+      },
+      {
+        "index": 26,
+        "tag": "div",
+        "id": "",
+        "className": "framer-2j2pow",
+        "textPreview": "UL DesignDashboard Design"
+      },
+      {
+        "index": 27,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "UL Design"
+      },
+      {
+        "index": 28,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Dashboard Design"
+      },
+      {
+        "index": 29,
+        "tag": "div",
+        "id": "",
+        "className": "framer-sxxrik",
+        "textPreview": "2020SayhomeeInSpaceUI Kits"
+      }
+    ],
+    "projectCards": [
+      {
+        "href": "https://ranli.framer.website/new-projects/design-for-android",
+        "yearGroup": "2025",
+        "title": "Design for Android",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/Use4oddwH3JUtz1HjZjUCbTbrD4.png?scale-down-to=512&width=1800&height=1350",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/creative-generation-agent",
+        "yearGroup": "2025",
+        "title": "Creative Generation Agent",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/GyuvSRJBe9N8BFAgKjDpi55JA14.png?scale-down-to=512&width=2560&height=1920",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai",
+        "yearGroup": "2025",
+        "title": "Yuzu AI",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/M3PyDif23GOgyHWNCJT67k5Cnr8.jpg?scale-down-to=512&width=2880&height=2160",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/funblocks",
+        "yearGroup": "2025",
+        "title": "AI Flow",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/i4GdC1d4QsB6FhoupBnYkCZjm4.png?scale-down-to=512&width=1440&height=1080",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery",
+        "yearGroup": "2024",
+        "title": "Coffee Delivery",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/fvjqTLlDMHkO8d4y76O2m0DpuU.png?scale-down-to=512&width=2880&height=2160",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/wms",
+        "yearGroup": "2024",
+        "title": "WMS",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/1cB4nkcHmk0svYSiIZsu05vfow.png?scale-down-to=512&width=2880&height=2160",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/chamber",
+        "yearGroup": "2024",
+        "title": "Chamber",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/1FNlNcViQ1nNVIzsvlTBIarIuM.jpg?scale-down-to=512&width=2800&height=1900",
+          "width": 473,
+          "height": 320
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture",
+        "yearGroup": "2024",
+        "title": "山西古建",
+        "labels": [
+          "Sayhomee"
+        ],
+        "image": {
+          "src": "https://framerusercontent.com/images/2QHcohyIa85JTWBNkJD7D9Gk1j4.jpg?scale-down-to=512&width=1440&height=1080",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/voyage-ai",
+        "yearGroup": "2024",
+        "title": "Voyage AI",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/3tn0H92jic2S3Okvx3sRwzN7B1Y.jpg?scale-down-to=512&width=1920&height=1440",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://uldesign.framer.website/",
+        "yearGroup": "2021 - 2023",
+        "title": "UL Design",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/vTLtP8wCafsfthezMWBoA0ylBxs.jpg?scale-down-to=512&width=4320&height=3240",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://uldesign.framer.website/gallery",
+        "yearGroup": "2021 - 2023",
+        "title": "Dashboard Design",
+        "labels": [
+          "UL Dashboard"
+        ],
+        "image": {
+          "src": "https://framerusercontent.com/images/gOVgfGAwHrVgpcE0UmK3esCedZE.jpg?scale-down-to=512&width=4320&height=3240",
+          "width": 473,
+          "height": 354
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/sayhomee",
+        "yearGroup": "2020",
+        "title": "Sayhomee",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/q8jchKH7VPYbEOY92E9KUqtX8nA.png?width=1920&height=1080",
+          "width": 0,
+          "height": 0
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/inspace",
+        "yearGroup": "2020",
+        "title": "InSpace",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/9gYLo1FFVJTsQDQECObH5k.jpg?width=2880&height=2160",
+          "width": 0,
+          "height": 0
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      }
+    ],
+    "mediaSummary": {
+      "totalImages": 26,
+      "uniqueImageHosts": [
+        "framerusercontent.com"
+      ],
+      "videos": []
+    }
+  },
+  "mobile": {
+    "viewportName": "mobile",
+    "pageTitle": "Hey, I'm Ran Li",
+    "metaDescription": "A freelance Product designer",
+    "viewport": {
+      "width": 390,
+      "height": 1200
+    },
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "2025"
+      },
+      {
+        "tag": "h3",
+        "text": "Design for Android"
+      },
+      {
+        "tag": "h3",
+        "text": "Creative Generation Agent"
+      },
+      {
+        "tag": "h3",
+        "text": "Yuzu AI"
+      },
+      {
+        "tag": "h3",
+        "text": "AI Flow"
+      },
+      {
+        "tag": "h1",
+        "text": "2024"
+      },
+      {
+        "tag": "h3",
+        "text": "Coffee Delivery"
+      },
+      {
+        "tag": "h3",
+        "text": "WMS"
+      },
+      {
+        "tag": "h3",
+        "text": "Chamber"
+      },
+      {
+        "tag": "h3",
+        "text": "山西古建"
+      },
+      {
+        "tag": "h3",
+        "text": "Voyage AI"
+      },
+      {
+        "tag": "h1",
+        "text": "2021 - 2023"
+      },
+      {
+        "tag": "h3",
+        "text": "UL Design"
+      },
+      {
+        "tag": "h3",
+        "text": "Dashboard Design"
+      },
+      {
+        "tag": "h1",
+        "text": "2020"
+      },
+      {
+        "tag": "h3",
+        "text": "Sayhomee"
+      },
+      {
+        "tag": "h3",
+        "text": "InSpace"
+      },
+      {
+        "tag": "h3",
+        "text": "UI Kits"
+      },
+      {
+        "tag": "h1",
+        "text": "2019"
+      },
+      {
+        "tag": "h3",
+        "text": "Eano"
+      },
+      {
+        "tag": "h1",
+        "text": "2016-2018"
+      },
+      {
+        "tag": "h3",
+        "text": "Haohaozhu 2.0"
+      },
+      {
+        "tag": "h3",
+        "text": "InSpace"
+      },
+      {
+        "tag": "h3",
+        "text": "Lawyer Center"
+      },
+      {
+        "tag": "h1",
+        "text": "2014-2016"
+      },
+      {
+        "tag": "h3",
+        "text": "Hunter Mode"
+      },
+      {
+        "tag": "h3",
+        "text": "Hunter Mode Style Guide"
+      },
+      {
+        "tag": "h3",
+        "text": "Breadtrip Dashboard"
+      },
+      {
+        "tag": "h3",
+        "text": "City Hunter"
+      },
+      {
+        "tag": "h1",
+        "text": "2012"
+      },
+      {
+        "tag": "h3",
+        "text": "Mapbar"
+      }
+    ],
+    "links": [
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/design-for-android"
+      },
+      {
+        "text": "Design for Android",
+        "href": "https://ranli.framer.website/new-projects/design-for-android"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/creative-generation-agent"
+      },
+      {
+        "text": "Creative Generation Agent",
+        "href": "https://ranli.framer.website/new-projects/creative-generation-agent"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai"
+      },
+      {
+        "text": "Yuzu AI",
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/funblocks"
+      },
+      {
+        "text": "AI Flow",
+        "href": "https://ranli.framer.website/new-projects/funblocks"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery"
+      },
+      {
+        "text": "Coffee Delivery",
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/wms"
+      },
+      {
+        "text": "WMS",
+        "href": "https://ranli.framer.website/new-projects/wms"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/chamber"
+      },
+      {
+        "text": "Chamber",
+        "href": "https://ranli.framer.website/new-projects/chamber"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture"
+      },
+      {
+        "text": "山西古建",
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/voyage-ai"
+      },
+      {
+        "text": "Voyage AI",
+        "href": "https://ranli.framer.website/new-projects/voyage-ai"
+      },
+      {
+        "text": "",
+        "href": "https://uldesign.framer.website/"
+      },
+      {
+        "text": "UL Design",
+        "href": "https://uldesign.framer.website/"
+      },
+      {
+        "text": "",
+        "href": "https://uldesign.framer.website/gallery"
+      },
+      {
+        "text": "Dashboard Design",
+        "href": "https://uldesign.framer.website/gallery"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/sayhomee"
+      },
+      {
+        "text": "Sayhomee",
+        "href": "https://ranli.framer.website/new-projects/sayhomee"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/new-projects/inspace"
+      },
+      {
+        "text": "InSpace",
+        "href": "https://ranli.framer.website/new-projects/inspace"
+      },
+      {
+        "text": "",
+        "href": "https://ranli.framer.website/Projects/eano"
+      },
+      {
+        "text": "Eano",
+        "href": "https://ranli.framer.website/Projects/eano"
+      },
+      {
+        "text": "Book a 15min call",
+        "href": "https://x.com/betterliran"
+      },
+      {
+        "text": "Betterliran",
+        "href": "https://x.com/betterliran"
+      },
+      {
+        "text": "Follow",
+        "href": "https://x.com/betterliran"
+      },
+      {
+        "text": "linkedin.com",
+        "href": "https://www.linkedin.com/in/liranderan/"
+      },
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      },
+      {
+        "text": "Yuzu AI",
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai"
+      },
+      {
+        "text": "Coffee Delivery",
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery"
+      },
+      {
+        "text": "WMS",
+        "href": "https://ranli.framer.website/new-projects/wms"
+      },
+      {
+        "text": "Voyage AI",
+        "href": "https://ranli.framer.website/new-projects/voyage-ai"
+      },
+      {
+        "text": "UL Design",
+        "href": "https://uldesign.framer.website/"
+      },
+      {
+        "text": "UL Dashboard",
+        "href": "https://uldesign.framer.website/gallery"
+      },
+      {
+        "text": "Sayhomee",
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture"
+      },
+      {
+        "text": "InSpace",
+        "href": "https://ranli.framer.website/new-projects/inspace"
+      },
+      {
+        "text": "Eano",
+        "href": "https://www.eano.com/"
+      },
+      {
+        "text": "Twitter",
+        "href": "https://twitter.com/betterliran"
+      },
+      {
+        "text": "Linkedin",
+        "href": "https://www.linkedin.com/in/liranderan/"
+      },
+      {
+        "text": "Figma",
+        "href": "https://www.figma.com/@ranli"
+      },
+      {
+        "text": "Behance",
+        "href": "https://www.behance.net/liranderan"
+      },
+      {
+        "text": "Dribbble",
+        "href": "https://dribbble.com/liranderan"
+      },
+      {
+        "text": "Notion",
+        "href": "https://www.notion.so/liranderan/I-m-Ran-Li-a416bfcd54e94f4c8ba78493921db518"
+      },
+      {
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+        "href": "https://www.framer.com/"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      },
+      {
+        "text": "Hey",
+        "href": "https://ranli.framer.website/"
+      },
+      {
+        "text": "Projects",
+        "href": "https://ranli.framer.website/Projects"
+      },
+      {
+        "text": "Work Experience",
+        "href": "https://ranli.framer.website/Work-experience"
+      },
+      {
+        "text": "Contact",
+        "href": "https://ranli.framer.website/Contact"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/Use4oddwH3JUtz1HjZjUCbTbrD4.png?scale-down-to=512&width=1800&height=1350",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/GyuvSRJBe9N8BFAgKjDpi55JA14.png?scale-down-to=512&width=2560&height=1920",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/M3PyDif23GOgyHWNCJT67k5Cnr8.jpg?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/i4GdC1d4QsB6FhoupBnYkCZjm4.png?scale-down-to=512&width=1440&height=1080",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/fvjqTLlDMHkO8d4y76O2m0DpuU.png?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/1cB4nkcHmk0svYSiIZsu05vfow.png?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/1FNlNcViQ1nNVIzsvlTBIarIuM.jpg?scale-down-to=512&width=2800&height=1900",
+        "alt": "",
+        "width": 159,
+        "height": 107
+      },
+      {
+        "src": "https://framerusercontent.com/images/2QHcohyIa85JTWBNkJD7D9Gk1j4.jpg?scale-down-to=512&width=1440&height=1080",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/3tn0H92jic2S3Okvx3sRwzN7B1Y.jpg?scale-down-to=512&width=1920&height=1440",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/vTLtP8wCafsfthezMWBoA0ylBxs.jpg?scale-down-to=512&width=4320&height=3240",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/gOVgfGAwHrVgpcE0UmK3esCedZE.jpg?scale-down-to=512&width=4320&height=3240",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/q8jchKH7VPYbEOY92E9KUqtX8nA.png?scale-down-to=512&width=1920&height=1080",
+        "alt": "",
+        "width": 159,
+        "height": 89
+      },
+      {
+        "src": "https://framerusercontent.com/images/9gYLo1FFVJTsQDQECObH5k.jpg?scale-down-to=512&width=2880&height=2160",
+        "alt": "",
+        "width": 159,
+        "height": 119
+      },
+      {
+        "src": "https://framerusercontent.com/images/X9PxMsyUQoNNNpuADoOfstsUVE4.jpg?scale-down-to=512&width=3840&height=1920",
+        "alt": "",
+        "width": 159,
+        "height": 79
+      },
+      {
+        "src": "https://framerusercontent.com/images/CcHWchd6nqnPxy2M1GQuaBl4zCU.png?width=3840&height=2160",
+        "alt": "",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "src": "https://framerusercontent.com/images/CYv4HbBCUYBwsAvpCOBPV8b4QU.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/jQ0C6ywkchdOWjZk2ZRhMvLZcQ.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/8JHa6VU8tb219HzmpPH22L2H2SU.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/Ovdf6rIzLk5x0Kb6UWyWl6R7WYc.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/5xbgPpY79skFTFvACcndnDSbDk.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/0I5ieS418tfCCCC2Z3TdInnSiXE.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/Jdhr0SarnCBiz3cpzs6RcNs144.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/XIOcnUanTRuiLUcK7uMjL5Pw1gA.png?width=404&height=316",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/wxuAXyFz79uO1CJjVtev9qDdF8.jpg?width=790&height=790",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/AM9PX8l3tcHV41oVhZ9gWUkBSE.png?width=906&height=635",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "https://framerusercontent.com/images/uTKvR6qfTzsBtXOvlLGL21I53YY.png?width=904&height=849",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      }
+    ],
+    "fonts": [
+      "sans-serif",
+      "Figtree, \"Figtree Placeholder\", sans-serif",
+      "Satoshi, \"Satoshi Placeholder\", sans-serif",
+      "\"Red Hat Display\", \"Red Hat Display Placeholder\", sans-serif"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 238)",
+      "rgb(243, 243, 243)",
+      "rgb(81, 224, 205)",
+      "rgba(103, 226, 235, 0.08)",
+      "rgba(0, 85, 204, 0.04)",
+      "rgb(0, 85, 204)",
+      "rgb(104, 115, 125)",
+      "rgb(112, 112, 255)",
+      "rgba(255, 255, 255, 0.24)"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "id": "",
+        "className": "framer-FrFct framer-1iv4xcg framer-v-1r8e9vh",
+        "textPreview": "HeyProjectsWork ExperienceContact"
+      },
+      {
+        "index": 1,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-1eg6kx6 framer-1p09y2l",
+        "textPreview": "Hey"
+      },
+      {
+        "index": 2,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-192v0kr framer-1p09y2l",
+        "textPreview": "Projects"
+      },
+      {
+        "index": 3,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-1eg6kx6 framer-1p09y2l",
+        "textPreview": "Work Experience"
+      },
+      {
+        "index": 4,
+        "tag": "a",
+        "id": "",
+        "className": "framer-YORXs framer-4AE4g framer-CzF0S framer-5gh33k framer-v-1eg6kx6 framer-1p09y2l",
+        "textPreview": "Contact"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1htfjmu",
+        "textPreview": "2025Design for AndroidCreative Generation AgentYuzu AIAI Flow"
+      },
+      {
+        "index": 6,
+        "tag": "div",
+        "id": "",
+        "className": "framer-19gemmn",
+        "textPreview": "2025"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "id": "",
+        "className": "framer-19bdgi0",
+        "textPreview": "Design for AndroidCreative Generation Agent"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Design for Android"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Creative Generation Agent"
+      },
+      {
+        "index": 10,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1y5wa98",
+        "textPreview": "Yuzu AIAI Flow"
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Yuzu AI"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "AI Flow"
+      },
+      {
+        "index": 13,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1caw2sx",
+        "textPreview": "2024Coffee DeliveryWMSChamber山西古建Voyage AI"
+      },
+      {
+        "index": 14,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1xghuzm",
+        "textPreview": "2024"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "id": "",
+        "className": "framer-g7ekvg",
+        "textPreview": "Coffee DeliveryWMS"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Coffee Delivery"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "WMS"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1mp81qm",
+        "textPreview": "Chamber山西古建"
+      },
+      {
+        "index": 19,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Chamber"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "山西古建"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "id": "",
+        "className": "framer-6rvdu8",
+        "textPreview": "Voyage AI"
+      },
+      {
+        "index": 22,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Voyage AI"
+      },
+      {
+        "index": 23,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1a6hgfi",
+        "textPreview": ""
+      },
+      {
+        "index": 24,
+        "tag": "div",
+        "id": "",
+        "className": "framer-1hl1s81",
+        "textPreview": "2021 - 2023UL DesignDashboard Design"
+      },
+      {
+        "index": 25,
+        "tag": "div",
+        "id": "",
+        "className": "framer-qd1urq",
+        "textPreview": "2021 - 2023"
+      },
+      {
+        "index": 26,
+        "tag": "div",
+        "id": "",
+        "className": "framer-2j2pow",
+        "textPreview": "UL DesignDashboard Design"
+      },
+      {
+        "index": 27,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "UL Design"
+      },
+      {
+        "index": 28,
+        "tag": "div",
+        "id": "",
+        "className": "framer-EEV4d framer-PVDVJ framer-1qnkv framer-5L7sb framer-5lJDJ framer-K2Cpn framer-rtnvt3 framer-v-rtnvt3",
+        "textPreview": "Dashboard Design"
+      },
+      {
+        "index": 29,
+        "tag": "div",
+        "id": "",
+        "className": "framer-sxxrik",
+        "textPreview": "2020SayhomeeInSpaceUI Kits"
+      }
+    ],
+    "projectCards": [
+      {
+        "href": "https://ranli.framer.website/new-projects/design-for-android",
+        "yearGroup": "2025",
+        "title": "Design for Android",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/Use4oddwH3JUtz1HjZjUCbTbrD4.png?scale-down-to=512&width=1800&height=1350",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/creative-generation-agent",
+        "yearGroup": "2025",
+        "title": "Creative Generation Agent",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/GyuvSRJBe9N8BFAgKjDpi55JA14.png?scale-down-to=512&width=2560&height=1920",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/yuzu-ai",
+        "yearGroup": "2025",
+        "title": "Yuzu AI",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/M3PyDif23GOgyHWNCJT67k5Cnr8.jpg?scale-down-to=512&width=2880&height=2160",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/funblocks",
+        "yearGroup": "2025",
+        "title": "AI Flow",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/i4GdC1d4QsB6FhoupBnYkCZjm4.png?scale-down-to=512&width=1440&height=1080",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/coffee-delivery",
+        "yearGroup": "2024",
+        "title": "Coffee Delivery",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/fvjqTLlDMHkO8d4y76O2m0DpuU.png?scale-down-to=512&width=2880&height=2160",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/wms",
+        "yearGroup": "2024",
+        "title": "WMS",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/1cB4nkcHmk0svYSiIZsu05vfow.png?scale-down-to=512&width=2880&height=2160",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/chamber",
+        "yearGroup": "2024",
+        "title": "Chamber",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/1FNlNcViQ1nNVIzsvlTBIarIuM.jpg?scale-down-to=512&width=2800&height=1900",
+          "width": 159,
+          "height": 107
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/ancient-architecture",
+        "yearGroup": "2024",
+        "title": "山西古建",
+        "labels": [
+          "Sayhomee"
+        ],
+        "image": {
+          "src": "https://framerusercontent.com/images/2QHcohyIa85JTWBNkJD7D9Gk1j4.jpg?scale-down-to=512&width=1440&height=1080",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/voyage-ai",
+        "yearGroup": "2024",
+        "title": "Voyage AI",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/3tn0H92jic2S3Okvx3sRwzN7B1Y.jpg?scale-down-to=512&width=1920&height=1440",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://uldesign.framer.website/",
+        "yearGroup": "2021 - 2023",
+        "title": "UL Design",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/vTLtP8wCafsfthezMWBoA0ylBxs.jpg?scale-down-to=512&width=4320&height=3240",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://uldesign.framer.website/gallery",
+        "yearGroup": "2021 - 2023",
+        "title": "Dashboard Design",
+        "labels": [
+          "UL Dashboard"
+        ],
+        "image": {
+          "src": "https://framerusercontent.com/images/gOVgfGAwHrVgpcE0UmK3esCedZE.jpg?scale-down-to=512&width=4320&height=3240",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/sayhomee",
+        "yearGroup": "2020",
+        "title": "Sayhomee",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/q8jchKH7VPYbEOY92E9KUqtX8nA.png?scale-down-to=512&width=1920&height=1080",
+          "width": 159,
+          "height": 89
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "href": "https://ranli.framer.website/new-projects/inspace",
+        "yearGroup": "2020",
+        "title": "InSpace",
+        "labels": [],
+        "image": {
+          "src": "https://framerusercontent.com/images/9gYLo1FFVJTsQDQECObH5k.jpg?scale-down-to=512&width=2880&height=2160",
+          "width": 159,
+          "height": 119
+        },
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgb(243, 243, 243)",
+          "titleFontFamily": "Figtree, \"Figtree Placeholder\", sans-serif",
+          "titleFontSize": "24px",
+          "titleFontWeight": "500",
+          "titleColor": "rgb(0, 0, 0)"
+        }
+      }
+    ],
+    "mediaSummary": {
+      "totalImages": 26,
+      "uniqueImageHosts": [
+        "framerusercontent.com"
+      ],
+      "videos": []
+    }
+  }
+}
