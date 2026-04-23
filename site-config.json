@@ -1,0 +1,46 @@
+{
+  "lang": "en-CA",
+  "meta": {
+    "title": "Hey, I'm Ran Li",
+    "description": "A freelance Product designer",
+    "ogTitle": "Hey, I'm Ran Li",
+    "ogDescription": "A freelance Product designer",
+    "twitterTitle": "Hey, I'm Ran Li",
+    "twitterDescription": "A freelance Product designer"
+  },
+  "textReplacements": {
+    "Hey, I'm Ran Li": "Hey, I'm Ran Li",
+    "A freelance Product designer": "A freelance Product designer",
+    "Ran Li": "Ran Li",
+    "Hey": "Hey",
+    "Projects": "Projects",
+    "Work Experience": "Work Experience",
+    "Contact": "Contact",
+    "Available now": "Available now",
+    "Book a 15min call": "Book a 15min call",
+    "Follow": "Follow",
+    "Betterliran": "Betterliran",
+    "Vancouver": "Vancouver",
+    "Email": "Email",
+    "WeChat": "WeChat",
+    "betterliran@gmail.com": "betterliran@gmail.com",
+    "liranderan": "liranderan",
+    "Twitter": "Twitter",
+    "Linkedin": "Linkedin",
+    "Figma": "Figma",
+    "Behance": "Behance",
+    "Dribbble": "Dribbble",
+    "Notion": "Notion"
+  },
+  "linkReplacements": {
+    "https://x.com/betterliran": "https://x.com/betterliran",
+    "https://twitter.com/betterliran": "https://twitter.com/betterliran",
+    "https://www.linkedin.com/in/liranderan/": "https://www.linkedin.com/in/liranderan/",
+    "https://www.figma.com/@ranli": "https://www.figma.com/@ranli",
+    "https://www.behance.net/liranderan": "https://www.behance.net/liranderan",
+    "https://dribbble.com/liranderan": "https://dribbble.com/liranderan",
+    "https://www.notion.so/liranderan/I-m-Ran-Li-a416bfcd54e94f4c8ba78493921db518": "https://www.notion.so/liranderan/I-m-Ran-Li-a416bfcd54e94f4c8ba78493921db518",
+    "mailto:betterliran@gmail.com": "mailto:betterliran@gmail.com"
+  },
+  "selectorOverrides": []
+}
