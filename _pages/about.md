@@ -1,21 +1,28 @@
 ---
-title: "About"
+title: "关于"
 permalink: /about/
 ---
 
-Hi, I'm `douge357`.
+<div class="lang-switch">
+  <a class="btn btn--primary" href="/en/about/">English</a>
+  <a class="btn btn--inverse" href="/resume/">完整简历</a>
+</div>
 
-This site is my personal homepage and writing space. I use it to share progress, capture ideas, and keep a public record of what I am learning.
+我叫 **段续衍**，目前主要方向是 **Web3 UI / Product Design**。
 
-Right now, my focus is simple:
+这次网站内容是根据我的简历整理而来，目标不是做成博客模板，而是做成一个更适合投递、展示和对外介绍的个人主页。
 
-- keep building in public
-- improve steadily through small projects
-- write down useful things instead of letting them disappear
+我比较擅长的部分包括：
 
-You can find me here:
+- 多端产品 UI 设计
+- 复杂业务流程的信息梳理和交互设计
+- 设计规范、组件库和视觉系统搭建
+- Web3 产品场景下的体验与品牌表达统一
 
-- GitHub: [douge357](https://github.com/douge357)
-- Email: [duanxuyan123@gmail.com](mailto:duanxuyan123@gmail.com)
+联系方式：
 
-This page can grow over time with project background, interests, work history, or anything else worth sharing.
+- 电话：`17582929710`
+- 邮箱：`382723848@qq.com`
+- GitHub：[`douge357`](https://github.com/douge357)
+
+如果你希望更快了解我的经历，建议直接查看 [简历页](/resume/)。

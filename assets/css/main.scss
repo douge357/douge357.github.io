@@ -1,0 +1,33 @@
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+.lang-switch {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.feature-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}

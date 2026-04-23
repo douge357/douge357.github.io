@@ -1,9 +1,11 @@
 main:
-  - title: "Home"
+  - title: "首页 Home"
     url: /
-  - title: "About"
+  - title: "简历 Resume"
+    url: /resume/
+  - title: "关于 About"
     url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Posts"
-    url: /posts/
+  - title: "EN"
+    url: /en/
+  - title: "中文"
+    url: /

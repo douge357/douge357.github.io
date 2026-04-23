@@ -1,13 +1,13 @@
 title: douge357
 name: douge357
-description: Personal website, notes, and project updates from douge357.
+description: 段续衍的个人主页，包含 Web3 UI 设计经历、项目与中英文简历。
 url: "https://douge357.github.io"
 baseurl: ""
 repository: "douge357/douge357.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "air"
-locale: "en-US"
+locale: "zh-CN"
 
 plugins:
   - jekyll-include-cache
@@ -21,10 +21,16 @@ include:
   - _pages
 
 author:
-  name: "douge357"
-  bio: "Builder, learner, and internet citizen sharing notes, projects, and experiments."
+  name: "段续衍 / douge357"
+  bio: "Web3 UI Designer with 9 years of product and visual design experience."
   location: "China"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:382723848@qq.com"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:17582929710"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/douge357"
