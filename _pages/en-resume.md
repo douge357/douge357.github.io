@@ -5,7 +5,6 @@ permalink: /en/resume/
 
 <div class="lang-switch">
   <a class="btn btn--primary" href="/resume/">中文</a>
-  <a class="btn btn--inverse" href="/en/">Home</a>
 </div>
 
 ## Basic Information

@@ -1,12 +1,10 @@
 ---
 title: "Home"
 permalink: /en/
-author_profile: true
 ---
 
 <div class="lang-switch">
   <a class="btn btn--primary" href="/">中文</a>
-  <a class="btn btn--inverse" href="/en/resume/">View Resume</a>
 </div>
 
 ## Duan Xuyan
