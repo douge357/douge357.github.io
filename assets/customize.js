@@ -202,6 +202,38 @@
     });
   }
 
+  function removeRetiredProjectEntries() {
+    const retiredHrefPatterns = [
+      /\/new-projects\/ancient-architecture\/?$/i,
+      /\/new-projects\/inspace\/?$/i,
+      /:\/\/www\.eano\.com\/?$/i
+    ];
+
+    const links = Array.from(document.querySelectorAll("a[href]"));
+    links.forEach((link) => {
+      const rawHref = link.getAttribute("href");
+      if (!rawHref) {
+        return;
+      }
+
+      const resolvedHref = new URL(rawHref, window.location.href).href;
+      const isRetired = retiredHrefPatterns.some((pattern) => pattern.test(resolvedHref));
+      if (!isRetired) {
+        return;
+      }
+
+      const removableContainer =
+        link.closest(".ssr-variant") ||
+        link.closest('[data-framer-component-type="RichTextContainer"]');
+
+      if (removableContainer && removableContainer.parentElement) {
+        removableContainer.remove();
+      } else {
+        link.remove();
+      }
+    });
+  }
+
   function applyConfig() {
     if (!activeConfig || applying) {
       return;
@@ -215,6 +247,7 @@
       replaceComplexTextElements(activeConfig.textReplacements || {});
       replaceLinks(activeConfig.linkReplacements || {});
       applySelectorOverrides(activeConfig.selectorOverrides || []);
+      removeRetiredProjectEntries();
     } finally {
       applying = false;
     }
