@@ -3,11 +3,6 @@ title: "简历"
 permalink: /resume/
 ---
 
-<div class="lang-switch">
-  <a class="btn btn--primary" href="/en/resume/">English</a>
-  <a class="btn btn--inverse" href="/">返回首页</a>
-</div>
-
 ## 基本信息
 
 - 姓名：段续衍

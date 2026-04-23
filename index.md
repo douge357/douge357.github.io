@@ -4,11 +4,6 @@ author_profile: true
 title: "段续衍"
 ---
 
-<div class="lang-switch">
-  <a class="btn btn--primary" href="/en/">English</a>
-  <a class="btn btn--inverse" href="/resume/">查看完整简历</a>
-</div>
-
 ## Web3 UI Designer
 
 1993.07.10 ｜ 17582929710 ｜ 382723848@qq.com

@@ -1,6 +1,6 @@
 title: douge357
 name: douge357
-description: 段续衍的个人主页，包含 Web3 UI 设计经历、项目与中英文简历。
+description: 段续衍的个人主页，包含 Web3 UI 设计经历、项目与个人简历。
 url: "https://douge357.github.io"
 baseurl: ""
 repository: "douge357/douge357.github.io"
@@ -21,9 +21,9 @@ include:
   - _pages
 
 author:
-  name: "段续衍 / douge357"
-  bio: "Web3 UI Designer with 9 years of product and visual design experience."
-  location: "China"
+  name: "段续衍"
+  bio: "拥有 9 年产品设计与商业视觉设计经验的 Web3 UI 设计师。"
+  location: "中国"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"

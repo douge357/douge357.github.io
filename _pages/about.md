@@ -3,11 +3,6 @@ title: "关于"
 permalink: /about/
 ---
 
-<div class="lang-switch">
-  <a class="btn btn--primary" href="/en/about/">English</a>
-  <a class="btn btn--inverse" href="/resume/">完整简历</a>
-</div>
-
 我叫 **段续衍**，目前主要方向是 **Web3 UI / Product Design**。
 
 这次网站内容是根据我的简历整理而来，目标不是做成博客模板，而是做成一个更适合投递、展示和对外介绍的个人主页。
