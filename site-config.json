@@ -104,5 +104,65 @@
     "https://www.notion.so/liranderan/I-m-Ran-Li-a416bfcd54e94f4c8ba78493921db518": "https://www.notion.so/liranderan/I-m-Ran-Li-a416bfcd54e94f4c8ba78493921db518",
     "mailto:betterliran@gmail.com": "mailto:betterliran@gmail.com"
   },
-  "selectorOverrides": []
+  "selectorOverrides": [
+    {
+      "selector": "[data-framer-name='2021']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='./new-projects/ancient-architecture']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='./new-projects/inspace']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='https://www.eano.com/']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='https://uldesign.framer.website/']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='https://uldesign.framer.website/gallery']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='./sayhomee']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='./eano']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='../new-projects/ancient-architecture']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='../new-projects/inspace']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='../sayhomee']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    },
+    {
+      "selector": "a[href='../eano']",
+      "closest": "[data-framer-component-type='RichTextContainer']",
+      "remove": true
+    }
+  ]
 }

@@ -160,16 +160,29 @@
 
       const elements = document.querySelectorAll(override.selector);
       elements.forEach((element) => {
+        const target = override.closest ? element.closest(override.closest) || element : element;
+
+        if (override.remove) {
+          target.remove();
+          return;
+        }
+
         if (override.text !== undefined) {
-          element.textContent = override.text;
+          target.textContent = override.text;
         }
 
         if (override.html !== undefined) {
-          element.innerHTML = override.html;
+          target.innerHTML = override.html;
         }
 
         if (override.attr && override.value !== undefined) {
-          element.setAttribute(override.attr, override.value);
+          target.setAttribute(override.attr, override.value);
+        }
+
+        if (override.styles) {
+          Object.entries(override.styles).forEach(([property, value]) => {
+            target.style.setProperty(property, value);
+          });
         }
       });
     });
