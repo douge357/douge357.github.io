@@ -154,11 +154,25 @@
 
   function applySelectorOverrides(overrides) {
     overrides.forEach((override) => {
-      if (!override || !override.selector) {
+      if (!override || (!override.selector && !override.containsText)) {
         return;
       }
 
-      const elements = document.querySelectorAll(override.selector);
+      let elements = [];
+
+      if (override.selector) {
+        elements = Array.from(document.querySelectorAll(override.selector));
+      } else if (override.containsText) {
+        elements = Array.from(document.querySelectorAll("*")).filter((element) => {
+          if (TEXT_TAG_BLOCKLIST.has(element.tagName)) {
+            return false;
+          }
+
+          const text = element.textContent ? element.textContent.trim() : "";
+          return text.includes(override.containsText);
+        });
+      }
+
       elements.forEach((element) => {
         const target = override.closest ? element.closest(override.closest) || element : element;
 
