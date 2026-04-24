@@ -9,17 +9,25 @@
   };
 
   const TEXT_TAG_BLOCKLIST = new Set(["SCRIPT", "STYLE", "NOSCRIPT", "TITLE"]);
+  const DEFAULT_RETIRED_PROJECT_PATTERNS = [
+    /\/new-projects\/ancient-architecture\/?$/i,
+    /\/new-projects\/inspace\/?$/i,
+    /:\/\/www\.eano\.com\/?$/i
+  ];
+
   let activeConfig = null;
   let applyScheduled = false;
   let applying = false;
 
   function getConfigCandidates() {
-    const script = document.currentScript || document.querySelector('script[src*="customize.js"]');
+    const script =
+      document.currentScript ||
+      document.querySelector('script[src*="customize.v2.js"], script[src*="customize.js"]');
     const candidates = [];
 
     if (script && script.src) {
       const scriptUrl = new URL(script.src, window.location.href);
-      const rootPath = scriptUrl.pathname.replace(/\/assets\/customize\.js$/, "/");
+      const rootPath = scriptUrl.pathname.replace(/\/assets\/customize(?:\.v2)?\.js$/, "/");
       candidates.push(new URL("site-config.json", `${scriptUrl.origin}${rootPath}`).toString());
     }
 
@@ -46,6 +54,34 @@
     }
 
     return null;
+  }
+
+  function normalizeHref(rawHref) {
+    if (!rawHref) {
+      return null;
+    }
+
+    try {
+      const resolved = new URL(rawHref, window.location.href);
+      resolved.hash = "";
+      return resolved.href.replace(/\/$/, "");
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function hrefMatches(currentHref, targetHref) {
+    if (!currentHref || !targetHref) {
+      return false;
+    }
+
+    if (currentHref === targetHref) {
+      return true;
+    }
+
+    const normalizedCurrent = normalizeHref(currentHref);
+    const normalizedTarget = normalizeHref(targetHref);
+    return normalizedCurrent && normalizedTarget && normalizedCurrent === normalizedTarget;
   }
 
   function setMetaContent(config) {
@@ -202,12 +238,36 @@
     });
   }
 
-  function removeRetiredProjectEntries() {
-    const retiredHrefPatterns = [
-      /\/new-projects\/ancient-architecture\/?$/i,
-      /\/new-projects\/inspace\/?$/i,
-      /:\/\/www\.eano\.com\/?$/i
-    ];
+  function resolveRetiredPatterns(config) {
+    if (config.autoRetiredProjectPatterns === false) {
+      return [];
+    }
+
+    if (!Array.isArray(config.autoRetiredProjectPatterns)) {
+      return DEFAULT_RETIRED_PROJECT_PATTERNS;
+    }
+
+    const compiled = config.autoRetiredProjectPatterns
+      .map((pattern) => {
+        if (!pattern || typeof pattern !== "string") {
+          return null;
+        }
+
+        try {
+          return new RegExp(pattern, "i");
+        } catch (error) {
+          return null;
+        }
+      })
+      .filter(Boolean);
+
+    return compiled.length ? compiled : DEFAULT_RETIRED_PROJECT_PATTERNS;
+  }
+
+  function removeRetiredProjectEntries(patterns) {
+    if (!patterns.length) {
+      return;
+    }
 
     const links = Array.from(document.querySelectorAll("a[href]"));
     links.forEach((link) => {
@@ -217,7 +277,7 @@
       }
 
       const resolvedHref = new URL(rawHref, window.location.href).href;
-      const isRetired = retiredHrefPatterns.some((pattern) => pattern.test(resolvedHref));
+      const isRetired = patterns.some((pattern) => pattern.test(resolvedHref));
       if (!isRetired) {
         return;
       }
@@ -230,6 +290,108 @@
         removableContainer.remove();
       } else {
         link.remove();
+      }
+    });
+  }
+
+  function findFirstAnchorByHref(href) {
+    if (!href) {
+      return null;
+    }
+
+    const links = Array.from(document.querySelectorAll("a[href]"));
+    return (
+      links.find((link) => hrefMatches(link.getAttribute("href"), href)) ||
+      links.find((link) => (link.getAttribute("href") || "").includes(href)) ||
+      null
+    );
+  }
+
+  function findClosestContainer(anchor, closestSelector) {
+    if (!anchor) {
+      return null;
+    }
+
+    return (
+      (closestSelector && anchor.closest(closestSelector)) ||
+      anchor.closest('[data-framer-component-type="RichTextContainer"]') ||
+      anchor
+    );
+  }
+
+  function applyProjectOperations(operations) {
+    operations.forEach((operation) => {
+      if (!operation || !operation.type) {
+        return;
+      }
+
+      const type = String(operation.type).toLowerCase();
+
+      if (type === "remove") {
+        const anchor = findFirstAnchorByHref(operation.matchHref || operation.href);
+        const target = findClosestContainer(anchor, operation.closest);
+        if (target && target.parentElement) {
+          target.remove();
+        }
+        return;
+      }
+
+      if (type === "update") {
+        const anchor = findFirstAnchorByHref(operation.matchHref || operation.href);
+        if (!anchor) {
+          return;
+        }
+
+        if (operation.text !== undefined) {
+          anchor.textContent = operation.text;
+        }
+
+        if (operation.newHref) {
+          anchor.setAttribute("href", operation.newHref);
+        }
+
+        return;
+      }
+
+      if (type === "add") {
+        if (operation.href && findFirstAnchorByHref(operation.href)) {
+          return;
+        }
+
+        const sourceAnchor = findFirstAnchorByHref(operation.cloneFromHref);
+        const sourceContainer = findClosestContainer(sourceAnchor, operation.closest);
+        if (!sourceContainer || !sourceContainer.parentElement) {
+          return;
+        }
+
+        const clone = sourceContainer.cloneNode(true);
+        const cloneAnchor = clone.querySelector("a[href]");
+        if (cloneAnchor) {
+          if (operation.href) {
+            cloneAnchor.setAttribute("href", operation.href);
+          }
+
+          if (operation.text !== undefined) {
+            cloneAnchor.textContent = operation.text;
+          }
+
+          if (operation.target !== undefined) {
+            cloneAnchor.setAttribute("target", operation.target);
+          }
+
+          if (operation.rel !== undefined) {
+            cloneAnchor.setAttribute("rel", operation.rel);
+          }
+        }
+
+        const insertAfterAnchor = findFirstAnchorByHref(operation.insertAfterHref);
+        const insertAfterContainer = findClosestContainer(insertAfterAnchor, operation.closest);
+
+        if (insertAfterContainer && insertAfterContainer.parentElement === sourceContainer.parentElement) {
+          insertAfterContainer.insertAdjacentElement("afterend", clone);
+        } else {
+          sourceContainer.parentElement.appendChild(clone);
+        }
       }
     });
   }
@@ -247,7 +409,8 @@
       replaceComplexTextElements(activeConfig.textReplacements || {});
       replaceLinks(activeConfig.linkReplacements || {});
       applySelectorOverrides(activeConfig.selectorOverrides || []);
-      removeRetiredProjectEntries();
+      removeRetiredProjectEntries(resolveRetiredPatterns(activeConfig));
+      applyProjectOperations(activeConfig.projectOperations || []);
     } finally {
       applying = false;
     }
