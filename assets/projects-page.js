@@ -47,32 +47,36 @@
     </div>
   `;
 
-  footerIntro.innerHTML = `
-    <p class="footer-intro__label">\u72ec\u7acb\u8bbe\u8ba1\u5e08</p>
-    <h2 class="footer-intro__name">${data.profile.name}</h2>
-    <p class="footer-intro__bio">${data.profile.bio}</p>
-    <div class="footer-intro__meta">
-      <span>${data.profile.location}</span>
-    </div>
-  `;
+  if (footerIntro) {
+    footerIntro.innerHTML = `
+      <p class="footer-intro__label">\u72ec\u7acb\u8bbe\u8ba1\u5e08</p>
+      <h2 class="footer-intro__name">${data.profile.name}</h2>
+      <p class="footer-intro__bio">${data.profile.bio}</p>
+      <div class="footer-intro__meta">
+        <span>${data.profile.location}</span>
+      </div>
+    `;
+  }
 
-  footerColumns.innerHTML = `
-    <div class="footer-column" data-animate>
-      <h3>\u8054\u7cfb\u65b9\u5f0f</h3>
-      <ul>
-        <li><span>\u90ae\u7bb1</span><a href="mailto:${data.profile.email}">${data.profile.email}</a></li>
-        <li><span>\u5fae\u4fe1</span><strong>${data.profile.wechat}</strong></li>
-      </ul>
-    </div>
-    <div class="footer-column" data-animate>
-      <h3>\u793e\u4ea4\u8d26\u53f7</h3>
-      <ul>
-        ${data.profile.socials
-          .map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener">${item.label}</a></li>`)
-          .join("")}
-      </ul>
-    </div>
-  `;
+  if (footerColumns) {
+    footerColumns.innerHTML = `
+      <div class="footer-column" data-animate>
+        <h3>\u8054\u7cfb\u65b9\u5f0f</h3>
+        <ul>
+          <li><span>\u90ae\u7bb1</span><a href="mailto:${data.profile.email}">${data.profile.email}</a></li>
+          <li><span>\u5fae\u4fe1</span><strong>${data.profile.wechat}</strong></li>
+        </ul>
+      </div>
+      <div class="footer-column" data-animate>
+        <h3>\u793e\u4ea4\u8d26\u53f7</h3>
+        <ul>
+          ${data.profile.socials
+            .map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener">${item.label}</a></li>`)
+            .join("")}
+        </ul>
+      </div>
+    `;
+  }
 
   const initSplitReveal = () => {
     const title = document.querySelector(".profile-spotlight__title");

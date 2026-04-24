@@ -109,12 +109,24 @@ img {
 }
 
 .site-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-width: 48px;
-  font-family: "Archivo", sans-serif;
-  font-size: 1.02rem;
-  font-weight: 800;
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
+  flex-shrink: 0;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.site-brand:hover,
+.site-brand:focus-visible {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+.site-brand img {
+  display: block;
+  width: 46px;
+  height: auto;
 }
 
 .site-nav {
