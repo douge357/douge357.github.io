@@ -1,0 +1,330 @@
+:root {
+  --page-bg: #101113;
+  --page-bg-soft: #17191d;
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: rgba(255, 255, 255, 0.94);
+  --text-strong: #f8f8f4;
+  --text-muted: rgba(248, 248, 244, 0.62);
+  --text-dark: #111111;
+  --accent: #22f4a0;
+  --line: rgba(255, 255, 255, 0.12);
+  --shadow-soft: 0 18px 40px rgba(0, 0, 0, 0.28);
+  --layout-width: 1440px;
+  --gutter: clamp(18px, 4vw, 48px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text-strong);
+  font-family: "Manrope", sans-serif;
+  background:
+    linear-gradient(135deg, rgba(34, 244, 160, 0.12) 0%, transparent 28%),
+    linear-gradient(225deg, rgba(107, 72, 255, 0.16) 0%, transparent 32%),
+    linear-gradient(180deg, var(--page-bg-soft) 0%, var(--page-bg) 100%);
+}
+
+body.is-lightbox-open {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.page-shell {
+  min-height: 100vh;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 18px var(--gutter);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  padding: 12px 14px 12px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: var(--shadow-soft);
+}
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  flex-shrink: 0;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.site-brand:hover,
+.site-brand:focus-visible {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+.site-brand img {
+  display: block;
+  width: 46px;
+  height: auto;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  padding: 12px 18px;
+  border-radius: 999px;
+  color: rgba(17, 17, 17, 0.58);
+  font-size: 0.96rem;
+  font-weight: 700;
+  transition: background-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible,
+.site-nav a.is-active {
+  color: var(--text-dark);
+  background: var(--surface-strong);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.posters-page {
+  width: min(calc(100% - 2 * var(--gutter)), var(--layout-width));
+  margin: 0 auto;
+  padding: 34px 0 84px;
+}
+
+.poster-hero {
+  padding: 30px 0 40px;
+  border-bottom: 1px solid var(--line);
+}
+
+.poster-hero__copy {
+  max-width: 760px;
+}
+
+.poster-hero__eyebrow {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-family: "Archivo", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.poster-hero h1 {
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(3.3rem, 9vw, 9rem);
+  font-weight: 900;
+  line-height: 0.86;
+}
+
+.poster-hero p {
+  margin: 18px 0 0;
+  color: var(--text-muted);
+  font-size: clamp(1rem, 1.35vw, 1.18rem);
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.poster-masonry-wrap {
+  padding-top: 28px;
+}
+
+.poster-masonry {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  transition: height 260ms ease;
+}
+
+.poster-masonry__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 7px;
+  opacity: 0;
+  cursor: zoom-in;
+  will-change: transform, width, height, opacity, filter;
+}
+
+.poster-masonry__image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.36);
+}
+
+.poster-masonry__image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.16), transparent 30%);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.poster-masonry__item:hover .poster-masonry__image::after,
+.poster-masonry__item:focus-visible .poster-masonry__image::after {
+  opacity: 1;
+}
+
+.poster-masonry__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.poster-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: none;
+  background: rgba(5, 6, 8, 0.78);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.poster-lightbox.is-active {
+  display: block;
+}
+
+.poster-lightbox__figure {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.55);
+}
+
+.poster-lightbox__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #08090b;
+}
+
+.poster-lightbox__close {
+  position: fixed;
+  top: 22px;
+  right: 24px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 180ms ease;
+}
+
+.poster-lightbox__close:hover,
+.poster-lightbox__close:focus-visible {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    padding: 12px var(--gutter);
+  }
+
+  .site-header__inner {
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 28px;
+    padding: 14px 16px;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .site-nav a {
+    padding: 10px 13px;
+    font-size: 0.92rem;
+  }
+
+  .posters-page {
+    padding-top: 12px;
+  }
+
+  .poster-hero {
+    padding-top: 22px;
+  }
+
+  .poster-lightbox__close {
+    top: 14px;
+    right: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .poster-masonry__item {
+    opacity: 1;
+    filter: none;
+  }
+}
