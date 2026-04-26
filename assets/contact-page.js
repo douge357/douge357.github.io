@@ -9,10 +9,10 @@
   const items = Array.from(scene.querySelectorAll(".skill-node"));
   const configMap = new Map([
     ["skill-node--sketch", { baseRotation: 0, radius: 62, delay: 0, startX: -24, startY: -260, settle: 0.034 }],
-    ["skill-node--shopify", { baseRotation: 22, radius: 94, delay: 80, startX: -42, startY: -420, settle: 0.03 }],
-    ["skill-node--webflow", { baseRotation: -48, radius: 112, delay: 170, startX: 38, startY: -390, settle: 0.028 }],
+    ["skill-node--handdrawn", { baseRotation: 22, radius: 94, delay: 80, startX: -42, startY: -420, settle: 0.03 }],
+    ["skill-node--blender", { baseRotation: -16, radius: 112, delay: 170, startX: 38, startY: -390, settle: 0.028 }],
     ["skill-node--photoshop", { baseRotation: 0, radius: 88, delay: 250, startX: -18, startY: -340, settle: 0.03 }],
-    ["skill-node--framer", { baseRotation: 0, radius: 60, delay: 330, startX: 30, startY: -360, settle: 0.032 }],
+    ["skill-node--ue5", { baseRotation: 0, radius: 70, delay: 330, startX: 30, startY: -360, settle: 0.032 }],
     ["skill-node--figma", { baseRotation: 0, radius: 78, delay: 420, startX: 16, startY: -380, settle: 0.031 }],
     ["skill-node--illustrator", { baseRotation: 0, radius: 86, delay: 520, startX: 48, startY: -460, settle: 0.029 }]
   ]);
