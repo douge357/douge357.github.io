@@ -14,7 +14,7 @@ window.PROJECTS_PAGE_DATA = {
       { title: "Yuzu AI", href: "./new-projects/yuzu-ai/index.html" },
       { title: "\u5496\u5561\u914d\u9001", href: "./new-projects/coffee-delivery/index.html" },
       { title: "WMS", href: "./new-projects/wms/index.html" },
-      { title: "Voyage AI", href: "./new-projects/voyage-ai/index.html" }
+      { title: "逸泽电讯", href: "./new-projects/voyage-ai/index.html" }
     ],
     socials: [
       { label: "Twitter", href: "https://twitter.com/betterliran" },
@@ -30,9 +30,9 @@ window.PROJECTS_PAGE_DATA = {
       year: "2025",
       items: [
         {
-          title: "Android \u8bbe\u8ba1",
+          title: "FlashBlock \u6539\u7248",
           href: "./new-projects/design-for-android/index.html",
-          image: "https://framerusercontent.com/images/Use4oddwH3JUtz1HjZjUCbTbrD4.png?width=1800&height=1350"
+          image: "./assets/flashblock-redesign/flashblock-redesign-01.png"
         },
         {
           title: "FlashBlock \u4ea7\u54c1",
@@ -70,9 +70,9 @@ window.PROJECTS_PAGE_DATA = {
           image: "https://framerusercontent.com/images/1FNlNcViQ1nNVIzsvlTBIarIuM.jpg?width=2800&height=1900"
         },
         {
-          title: "Voyage AI",
+          title: "逸泽电讯",
           href: "./new-projects/voyage-ai/index.html",
-          image: "https://framerusercontent.com/images/3tn0H92jic2S3Okvx3sRwzN7B1Y.jpg?width=1920&height=1440"
+          image: "./assets/yize-telecom/home.jpg"
         }
       ]
     }

@@ -58,12 +58,23 @@ img {
   isolation: isolate;
 }
 
+.ripple-light-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  opacity: 0.68;
+  mix-blend-mode: screen;
+}
+
 .page-shell::before,
 .page-shell::after {
   content: "";
   position: fixed;
   inset: auto;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
   border-radius: 999px;
   filter: blur(18px);
@@ -353,12 +364,12 @@ img {
 }
 
 .project-card__media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 50% 12%, rgba(255, 255, 255, 0.6), transparent 34%),
-    linear-gradient(180deg, transparent 0%, rgba(41, 33, 35, 0.04) 100%);
+  display: none;
+}
+
+.projects-page {
+  position: relative;
+  z-index: 1;
 }
 
 .project-card__media img {

@@ -159,6 +159,145 @@ a {
   isolation: isolate;
 }
 
+.contact-electric {
+  --electric-border-color: #7df9ff;
+  --electric-border-radius: 28px;
+  --electric-border-thickness: 2px;
+  position: relative;
+  isolation: isolate;
+  width: min(100%, 1080px);
+  margin: 34px auto 0;
+  border-radius: var(--electric-border-radius);
+  overflow: visible;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.44)),
+    radial-gradient(circle at 12% 0%, rgba(125, 249, 255, 0.28), transparent 32%),
+    radial-gradient(circle at 88% 100%, rgba(34, 244, 160, 0.18), transparent 34%);
+  box-shadow: 0 24px 64px rgba(94, 82, 92, 0.12);
+}
+
+.eb-canvas-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.eb-canvas {
+  display: block;
+}
+
+.eb-content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(20px, 3vw, 44px);
+  align-items: center;
+  padding: clamp(24px, 4vw, 42px);
+  border-radius: inherit;
+}
+
+.eb-layers {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.eb-glow-1,
+.eb-glow-2,
+.eb-background-glow {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.eb-glow-1 {
+  border: var(--electric-border-thickness) solid color-mix(in srgb, var(--electric-border-color) 58%, transparent);
+  filter: blur(1px);
+}
+
+.eb-glow-2 {
+  border: var(--electric-border-thickness) solid var(--electric-border-color);
+  filter: blur(5px);
+  opacity: 0.78;
+}
+
+.eb-background-glow {
+  z-index: -1;
+  background: linear-gradient(-30deg, var(--electric-border-color), transparent 48%, rgba(34, 244, 160, 0.8));
+  filter: blur(32px);
+  opacity: 0.26;
+  transform: scale(1.08);
+}
+
+.contact-electric__eyebrow {
+  margin: 0 0 10px;
+  color: #10a6a9;
+  font-family: "Archivo", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact-electric h1 {
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(2.3rem, 5vw, 4.4rem);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.08em;
+}
+
+.contact-methods {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.contact-method {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.56);
+  transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.contact-method:hover,
+.contact-method:focus-visible {
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 14px 28px rgba(94, 82, 92, 0.1);
+  transform: translateY(-2px);
+}
+
+.contact-method span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.contact-method strong {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(1.05rem, 1.7vw, 1.48rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
 .skill-node {
   position: absolute;
   display: flex;
@@ -478,6 +617,15 @@ a {
     top: 39%;
     left: 82%;
   }
+
+  .contact-electric {
+    width: min(100%, 720px);
+    margin-top: 24px;
+  }
+
+  .eb-content {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 680px) {
@@ -548,5 +696,18 @@ a {
   .skill-node--illustrator {
     top: 2%;
     right: -2%;
+  }
+
+  .contact-electric {
+    margin-top: 18px;
+    border-radius: 24px;
+  }
+
+  .eb-content {
+    padding: 22px;
+  }
+
+  .contact-methods {
+    grid-template-columns: 1fr;
   }
 }
