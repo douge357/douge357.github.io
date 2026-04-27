@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <!-- Made in Framer 脗路 framer.com 芒聹篓 -->
 <!-- Published Mar 27, 2026, 10:52 PM UTC -->
-<html lang="en-CA">
+<html lang="zh-CN">
 <head>
 	<meta charset="utf-8">
 	
@@ -551,7 +551,112 @@
 <svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 9.5 19 C 14.747 19 19 14.747 19 9.5 C 19 4.253 14.747 0 9.5 0 C 4.253 0 0 4.253 0 9.5 C 0 14.747 4.253 19 9.5 19 Z" fill="transparent" height="19px" id="UplCACey4" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--fbr8zx, 1.5)" stroke="var(--34440n, rgb(0, 0, 0))" transform="translate(2.5 2.5)" width="19px"/><path d="M 0 0 C 4.24 1 2.25 4.72 2.19 8.5 C 2.19 12.6 5.55 10.12 5.4 12.06 C 5.437 13.51 5.718 14.943 6.23 16.3" fill="transparent" height="16.299999999999997px" id="CDqlG0blL" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--fbr8zx, 1.5)" stroke="var(--34440n, rgb(0, 0, 0))" transform="translate(5.37 5.19)" width="6.2299999999999995px"/><path d="M 1.843 0 C 1.843 1.38 1.843 2.57 1.103 2.78 C -0.007 3.09 0.823 7.01 0.103 8.87 C -0.617 10.73 2.633 11.37 4.103 9.87 C 5.573 8.37 4.493 7.09 6.103 7.09 C 6.673 7.09 7.543 7.19 8.423 7.22" fill="transparent" height="10.703451661890313px" id="ahYZQgnSF" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--fbr8zx, 1.5)" stroke="var(--34440n, rgb(0, 0, 0))" transform="translate(12.897 2.91)" width="8.422710061336456px"/></svg>
 </div>
 	<!-- Start of bodyEnd -->
-    
+    <script>
+      (() => {
+        document.documentElement.lang = "zh-CN";
+
+        const translations = new Map([
+          ["Hey", "首页"],
+          ["Projects", "项目"],
+          ["Work Experience", "工作经历"],
+          ["Contact", "联系我"],
+          [
+            "AI that sees, remembers, and generates based what you see and experience",
+            "能看见、会记住，并基于你的所见与经历生成内容"
+          ],
+          ["Recordings", "记录"],
+          ["San Francisco", "旧金山"],
+          ["Vancouver", "温哥华"],
+          ["Project", "项目"],
+          ["Email", "邮箱"],
+          ["WeChat", "微信"],
+          ["Coffee Delivery", "咖啡配送"],
+          ["Voyage AI", "逸泽电讯"],
+          ["Ancient Architecture", "山西古建"],
+          ["Linkedin", "领英"],
+          ["Aug 29, 2024", "2024 年 8 月 29 日"]
+        ]);
+
+        const ignoredTags = new Set(["SCRIPT", "STYLE", "NOSCRIPT", "SVG", "PATH"]);
+        const metaBlockTexts = [
+          "Industry",
+          "AI Technology",
+          "Timeline",
+          "September 2024 - December 2024",
+          "Role",
+          "UI / UX Design"
+        ];
+
+        const removeProjectMeta = () => {
+          document.querySelectorAll("[data-framer-component-type='RichTextContainer']").forEach(element => {
+            if (element.textContent.trim() !== "Industry") return;
+
+            const block = element.closest(".framer-iz0hu0");
+            if (!block) return;
+
+            const content = block.textContent;
+            if (metaBlockTexts.every(text => content.includes(text))) {
+              block.remove();
+            }
+          });
+        };
+
+        const translateTextNode = node => {
+          const value = node.nodeValue;
+          if (!value || !value.trim()) return;
+
+          const trimmed = value.trim();
+          const translated = translations.get(trimmed);
+          if (!translated) return;
+
+          node.nodeValue = value.replace(trimmed, translated);
+        };
+
+        const translate = (root = document.body) => {
+          if (!root) return;
+
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              const parent = node.parentElement;
+              if (!parent || ignoredTags.has(parent.tagName)) return NodeFilter.FILTER_REJECT;
+              return NodeFilter.FILTER_ACCEPT;
+            }
+          });
+
+          const nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+          nodes.forEach(translateTextNode);
+        };
+
+        const run = () => {
+          removeProjectMeta();
+          translate(document.body);
+        };
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", run, { once: true });
+        } else {
+          run();
+        }
+
+        window.addEventListener("load", run);
+
+        const observer = new MutationObserver(mutations => {
+          for (const mutation of mutations) {
+            mutation.addedNodes.forEach(node => {
+              if (node.nodeType === Node.TEXT_NODE) {
+                translateTextNode(node);
+              } else if (node.nodeType === Node.ELEMENT_NODE) {
+                translate(node);
+              }
+            });
+          }
+          removeProjectMeta();
+        });
+
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+      })();
+    </script>
     <!-- End of bodyEnd -->
 </body>
 </html>

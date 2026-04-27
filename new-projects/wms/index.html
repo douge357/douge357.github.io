@@ -501,7 +501,48 @@
 <svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 9.5 19 C 14.747 19 19 14.747 19 9.5 C 19 4.253 14.747 0 9.5 0 C 4.253 0 0 4.253 0 9.5 C 0 14.747 4.253 19 9.5 19 Z" fill="transparent" height="19px" id="UplCACey4" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--fbr8zx, 1.5)" stroke="var(--34440n, rgb(0, 0, 0))" transform="translate(2.5 2.5)" width="19px"/><path d="M 0 0 C 4.24 1 2.25 4.72 2.19 8.5 C 2.19 12.6 5.55 10.12 5.4 12.06 C 5.437 13.51 5.718 14.943 6.23 16.3" fill="transparent" height="16.299999999999997px" id="CDqlG0blL" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--fbr8zx, 1.5)" stroke="var(--34440n, rgb(0, 0, 0))" transform="translate(5.37 5.19)" width="6.2299999999999995px"/><path d="M 1.843 0 C 1.843 1.38 1.843 2.57 1.103 2.78 C -0.007 3.09 0.823 7.01 0.103 8.87 C -0.617 10.73 2.633 11.37 4.103 9.87 C 5.573 8.37 4.493 7.09 6.103 7.09 C 6.673 7.09 7.543 7.19 8.423 7.22" fill="transparent" height="10.703451661890313px" id="ahYZQgnSF" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--fbr8zx, 1.5)" stroke="var(--34440n, rgb(0, 0, 0))" transform="translate(12.897 2.91)" width="8.422710061336456px"/></svg>
 </div>
 	<!-- Start of bodyEnd -->
-    
+    <style>
+      .framer-1d0uwl5 {
+        display: none !important;
+      }
+    </style>
+    <script>
+      (() => {
+        const targetTexts = [
+          "Introduction",
+          "Control your warehouse",
+          "Industry",
+          "Logistics industry",
+          "AI Technology",
+          "Timeline",
+          "March 2024",
+          "Role",
+          "Design System"
+        ];
+
+        const removeWmsIntroMeta = () => {
+          document.querySelectorAll(".framer-1d0uwl5").forEach(block => {
+            const content = block.textContent || "";
+            if (targetTexts.every(text => content.includes(text))) {
+              block.remove();
+            }
+          });
+        };
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", removeWmsIntroMeta, { once: true });
+        } else {
+          removeWmsIntroMeta();
+        }
+
+        window.addEventListener("load", removeWmsIntroMeta);
+
+        new MutationObserver(removeWmsIntroMeta).observe(document.documentElement, {
+          childList: true,
+          subtree: true
+        });
+      })();
+    </script>
     <!-- End of bodyEnd -->
 </body>
 </html>

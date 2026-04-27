@@ -5,6 +5,8 @@
   --surface-border: rgba(43, 34, 34, 0.08);
   --text-strong: #111111;
   --text-muted: #8e898d;
+  --nav-width: 1440px;
+  --nav-gutter: clamp(18px, 4vw, 48px);
   --layout-width: 1320px;
   --gutter: clamp(20px, 4vw, 48px);
   --shadow-soft: 0 18px 36px rgba(94, 82, 92, 0.08), 0 2px 8px rgba(94, 82, 92, 0.04);
@@ -74,7 +76,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  padding: 18px var(--gutter);
+  padding: 18px var(--nav-gutter);
   backdrop-filter: blur(22px);
   -webkit-backdrop-filter: blur(22px);
 }
@@ -84,7 +86,8 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  max-width: var(--layout-width);
+  width: 100%;
+  max-width: var(--nav-width);
   margin: 0 auto;
   padding: 12px 14px 12px 22px;
   border: 1px solid rgba(255, 255, 255, 0.85);

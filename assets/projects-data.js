@@ -30,7 +30,7 @@ window.PROJECTS_PAGE_DATA = {
       year: "2025",
       items: [
         {
-          title: "FlashBlock \u6539\u7248",
+          title: "FlashBlock\u53cc\u65e6\u7248",
           href: "./new-projects/design-for-android/index.html",
           image: "./assets/flashblock-redesign/flashblock-redesign-01.png"
         },

@@ -153,8 +153,17 @@ void main() {
   shimmer = smoothstep(0.24, 0.88, shimmer);
   shimmer *= vignette * fadeTop * fadeBottom * (0.82 + mouseField * 0.3);
 
-  vec3 color = mix(vec3(0.5, 0.54, 0.56), vec3(0.86, 0.92, 0.93), shimmer) * shimmer;
-  float alpha = clamp(shimmer * 0.48, 0.0, 0.24);
+  vec4 shadowNoise = getNoise(vec3((flow + vec2(-0.08, 0.06)) * 3.15, uTime * -0.095 + 8.4));
+  float shadow = smoothstep(0.38, 0.82, shadowNoise.w);
+  shadow *= 1.0 - smoothstep(0.18, 0.72, shimmer);
+  shadow *= vignette * fadeTop * fadeBottom * mix(0.72, 1.08, 1.0 - ripples);
+
+  vec3 lightColor = mix(vec3(0.5, 0.54, 0.56), vec3(0.88, 0.93, 0.94), shimmer) * shimmer;
+  vec3 shadowColor = vec3(0.16, 0.17, 0.18) * shadow;
+  float lightAlpha = clamp(shimmer * 0.46, 0.0, 0.22);
+  float shadowAlpha = clamp(shadow * 0.16, 0.0, 0.12);
+  vec3 color = mix(shadowColor, lightColor, smoothstep(0.04, 0.28, shimmer));
+  float alpha = max(lightAlpha, shadowAlpha);
   fragColor = vec4(color, alpha);
 }`;
 

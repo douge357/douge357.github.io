@@ -17,6 +17,8 @@
   --radius-xl: 28px;
   --radius-lg: 22px;
   --radius-md: 18px;
+  --nav-width: 1440px;
+  --nav-gutter: clamp(18px, 4vw, 48px);
   --layout-width: 1320px;
   --gutter: clamp(20px, 4vw, 48px);
 }
@@ -65,8 +67,8 @@ img {
   width: 100vw;
   height: 100vh;
   pointer-events: none;
-  opacity: 0.68;
-  mix-blend-mode: screen;
+  opacity: 0.74;
+  mix-blend-mode: normal;
 }
 
 .page-shell::before,
@@ -100,7 +102,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 20;
-  padding: 18px var(--gutter);
+  padding: 18px var(--nav-gutter);
   backdrop-filter: blur(22px);
   -webkit-backdrop-filter: blur(22px);
 }
@@ -110,7 +112,8 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  max-width: var(--layout-width);
+  width: 100%;
+  max-width: var(--nav-width);
   margin: 0 auto;
   padding: 12px 14px 12px 22px;
   border: 1px solid rgba(255, 255, 255, 0.85);
